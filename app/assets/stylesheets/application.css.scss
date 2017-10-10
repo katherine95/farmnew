@@ -18,4 +18,5 @@
  //= require pages
  //= require_tree .
  */
-// @import "bootstrap"
+ @import "bootstrap-sprockets";
+ @import "bootstrap";

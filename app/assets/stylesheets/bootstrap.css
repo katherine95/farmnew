@@ -83,7 +83,7 @@ sup {
 sub {
   bottom: -.25em;
 }
-img {
+image {
   border: 0;
 }
 svg:not(:root) {
@@ -222,10 +222,10 @@ th {
     display: table-header-group;
   }
   tr,
-  img {
+  image {
     page-break-inside: avoid;
   }
-  img {
+  image {
     max-width: 100% !important;
   }
   p,
@@ -1112,22 +1112,22 @@ a:focus {
 figure {
   margin: 0;
 }
-img {
+image {
   vertical-align: middle;
 }
-.img-responsive,
-.thumbnail > img,
-.thumbnail a > img,
-.carousel-inner > .item > img,
-.carousel-inner > .item > a > img {
+.image-responsive,
+.thumbnail > image,
+.thumbnail a > image,
+.carousel-inner > .item > image,
+.carousel-inner > .item > a > image {
   display: block;
   max-width: 100%;
   height: auto;
 }
-.img-rounded {
+.image-rounded {
   border-radius: 6px;
 }
-.img-thumbnail {
+.image-thumbnail {
   display: inline-block;
   max-width: 100%;
   height: auto;
@@ -1140,7 +1140,7 @@ img {
        -o-transition: all .2s ease-in-out;
           transition: all .2s ease-in-out;
 }
-.img-circle {
+.image-circle {
   border-radius: 50%;
 }
 hr {
@@ -4012,7 +4012,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   overflow: hidden;
   background-color: #e5e5e5;
 }
-.nav > li > a > img {
+.nav > li > a > image {
   max-width: none;
 }
 .nav-tabs {
@@ -4282,7 +4282,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-brand:focus {
   text-decoration: none;
 }
-.navbar-brand > img {
+.navbar-brand > image {
 }
 @media (min-width: 768px) {
   .navbar > .container .navbar-brand,
@@ -5009,8 +5009,8 @@ a.badge:focus {
        -o-transition: border .2s ease-in-out;
           transition: border .2s ease-in-out;
 }
-.thumbnail > img,
-.thumbnail a > img {
+.thumbnail > image,
+.thumbnail a > image {
   margin-right: auto;
   margin-left: auto;
 }
@@ -5209,7 +5209,7 @@ a.thumbnail.active {
 .media-object {
   display: block;
 }
-.media-object.img-thumbnail {
+.media-object.image-thumbnail {
   max-width: none;
 }
 .media-right,
@@ -6248,8 +6248,8 @@ button.close {
        -o-transition: .6s ease-in-out left;
           transition: .6s ease-in-out left;
 }
-.carousel-inner > .item > img,
-.carousel-inner > .item > a > img {
+.carousel-inner > .item > image,
+.carousel-inner > .item > a > image {
   line-height: 1;
 }
 @media all and (transform-3d), (-webkit-transform-3d) {

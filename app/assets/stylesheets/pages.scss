@@ -3,7 +3,7 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 /*REUSABLE STYLES */
 
-img {
+image {
     max-width: 100%;
 }
 
@@ -152,7 +152,7 @@ body {
 }
 
 .dotmatrix {
-    background: url('../img/dot-matrix.svg') 50% 0% repeat-y #fff;
+    background: url('assets/images/dot-matrix.svg') 50% 0% repeat-y #fff;
     height: 100%;
     background-size: 50%;
     width: 10%;
